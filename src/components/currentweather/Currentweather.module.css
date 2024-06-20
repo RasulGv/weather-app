@@ -93,3 +93,69 @@
   transform: translateY(-2px);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .current {
+    width: 80%;
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  .temperature {
+    font-size: 48px;
+  }
+
+  .temperature span {
+    font-size: 28px;
+  }
+
+  .temperature sup {
+    font-size: 12px;
+  }
+
+  .condition {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  .detailItem {
+    font-size: 14px;
+  }
+
+  .detailIcon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .current {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .temperature {
+    font-size: 40px;
+  }
+
+  .temperature span {
+    font-size: 24px;
+  }
+
+  .temperature sup {
+    font-size: 10px;
+  }
+
+  .condition {
+    font-size: 16px;
+    margin-left: 3px;
+  }
+
+  .detailItem {
+    font-size: 12px;
+  }
+
+  .detailIcon {
+    font-size: 18px;
+  }
+}
